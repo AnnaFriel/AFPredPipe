@@ -25,11 +25,5 @@ for j in subclusters:
 	if cluster_ID in Main_cluster and alleleinfo in Main_cluster[cluster_id]:
 		Filtered_subclusters.append(j)
 	
-#	if subclusters.issubset(Main_clusters):
-#		Filtered_subclusters.append(j)
-#		Filtered_subclusters.append(i)
-#Check if alleles in subcluster match the main cluster
-#	if allele_info == Main_cluster.get(cluster_id,""):
-#		Filtered_subclusters.append(i)
 file2.writelines(Filtered_subclusters)
 file2.close()
