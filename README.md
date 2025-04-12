@@ -1,5 +1,5 @@
 # AFPredPipe
-Peptide-based Vaccine Prediction Pipeline Applied to Protoparvoviruses. '/n'
+Peptide-based Vaccine Prediction Pipeline Applied to Protoparvoviruses. 
 This is an immuno-informatics pipeline for predicting peptide-based vaccine candidates. It was developed and deployed for the prediction of peptide-based vaccine candidates for the protoparvoviruses Bufavirus-1VP2, Tusavirus-VP2 and Cutavirus.
 All the in-house scripts used in this pipeline are present in the Scripts folder. The folder contains codes for:
   Sequence Alignment using python
